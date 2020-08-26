@@ -8,6 +8,9 @@ p {
   line-height: 20px;
   letter-spacing: 0.1em;
 }
+img {
+  display: block;
+}
 
 /*Gerais*/
 .btn {
@@ -53,6 +56,14 @@ p {
   background: #000;
   margin: 10px auto;
 }
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+.call p {
+  margin-bottom: 20px;
+}
 
 /*Header*/
 .header {
@@ -91,7 +102,7 @@ p {
   background: url("../img/bg.jpg") no-repeat center;
   background-size: cover;
   padding: 80px 0;
-  margin-top: 96px;
+  margin-top: 92px;
   height: 380px;
   text-align: center;
 }
@@ -160,10 +171,6 @@ p {
 .produto-item p {
   padding: 10px 20px 20px 20px;
 }
-.call p {
-  text-align: center;
-  margin-bottom: 20px;
-}
 
 /*portfolio*/
 .portfolio {
@@ -178,8 +185,63 @@ p {
   background: #fff;
 }
 .portfolio ul li:last-child {
-  margin: 20px 0 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .portfolio .call p {
   color: #fec63e;
+}
+
+/*qualidade*/
+.qualidade {
+  padding: 60px 0;
+  height: 550px;
+}
+.qualidade::after {
+  content: "";
+  height: 83px;
+  width: 634px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 210px;
+  left: 164px;
+  z-index: -1;
+}
+.qualidade-lista {
+  margin-top: 40px;
+  overflow: auto;
+}
+.qualidade img {
+  margin: 0 auto;
+}
+.qualiade-item {
+  text-align: center;
+}
+.qualiade-item h2 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.qualiade-item h2::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background: #000;
+  margin: 10px auto;
+}
+
+/*Citação*/
+.citacao {
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+  height: 220px;
+  padding-top: 60px;
+  text-align: center;
+}
+.citacao .quote-externo cite {
+  margin-bottom: 0;
 }
