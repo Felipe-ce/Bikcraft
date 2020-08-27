@@ -247,7 +247,12 @@ img {
 }
 
 /*footer*/
-
+.footer {
+  width: 100%;
+  padding: 60px 0;
+  background: #000;
+  color: #fff;
+}
 .footer h2 {
   font-size: 18px;
   line-height: 20px;
@@ -263,4 +268,16 @@ img {
   display: block;
   background: #fec63e;
   margin: 5px 0 10px 0;
+}
+.historia p {
+  padding-right: 40px;
+}
+.contato li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.contato a {
+  color: #fff;
 }
