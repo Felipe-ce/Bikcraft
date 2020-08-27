@@ -249,9 +249,12 @@ img {
 /*footer*/
 .footer {
   width: 100%;
-  padding: 60px 0;
   background: #000;
   color: #fff;
+  padding-top: 20px;
+}
+.footer .container{
+  margin-bottom: 20px;
 }
 .footer h2 {
   font-size: 18px;
@@ -298,4 +301,11 @@ img {
 }
 .redes-sociais a:hover {
   border: 3px solid #fff;
+}
+.copy {
+  max-width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: #000;
+  background: #fec63e;
 }
