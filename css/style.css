@@ -245,3 +245,22 @@ img {
 .citacao .quote-externo cite {
   margin-bottom: 0;
 }
+
+/*footer*/
+
+.footer h2 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fec63e;
+}
+.footer h2::after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  display: block;
+  background: #fec63e;
+  margin: 5px 0 10px 0;
+}
